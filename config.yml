@@ -1,0 +1,7 @@
+baseURL: "http://example.org/"   # ← Change this to your Vercel URL later
+languageCode: en-us
+title: ByteCascade 
+theme: PaperMod                  # ← This must be exactly "PaperMod"
+
+params:
+  # ... other PaperMod settings
