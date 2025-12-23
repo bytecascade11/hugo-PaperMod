@@ -1,7 +1,24 @@
 baseURL: "http://example.org/"   # ← Change this to your Vercel URL later
 languageCode: en-us
-title: ByteCascade 
+title: My New Hugo Site
 theme: PaperMod                  # ← This must be exactly "PaperMod"
 
 params:
   # ... other PaperMod settings
+  params:
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  homeInfoParams:
+    Title: "Hi there 👋"
+    Content: "Welcome to my awesome site built with Hugo PaperMod"
+  socialIcons:
+    - name: github
+      url: "https://github.com/"
+    # etc.
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+    # etc.
